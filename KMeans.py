@@ -226,7 +226,7 @@ listaK = list()
 for txt in listaTxt:
   print("#######################################",txt,"#########################################")
 ###################################### LEER ARCHIVO TXT #######################################################################
-  fichero = open('C:\\Users\\johan\\Desktop\\JOHAN\\UNIVERSIDAD\\SUKP\\Greedys-20220831T150654Z-001\\Greedys\\Benchmarks\\'+txt)
+  fichero = open(txt)
   lineas = fichero.readlines()
   for linea in lineas:
       if linea == "\n":
